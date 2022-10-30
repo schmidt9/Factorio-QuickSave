@@ -1,0 +1,9 @@
+{
+  "name": "quicksave-free",
+  "version": "0.1.0",
+  "title": "Quicksave Free",
+  "author": "Alex",
+  "factorio_version": "1.1",
+  "dependencies": ["base >= 1.1"],
+  "description": "This mod adds Quick Save hotkey F6"
+}
