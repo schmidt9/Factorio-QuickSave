@@ -1,1 +1,3 @@
-Free mod replicating https://mods.factorio.com/mod/Quicksave, but without custom settings
+Mod replicating https://mods.factorio.com/mod/Quicksave
+- has no settings
+- prints autosave name to game console
