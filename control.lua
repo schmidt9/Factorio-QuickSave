@@ -14,5 +14,8 @@ script.on_event("perform-quicksave", function(event)
 
   global["last_save_number"] = last_save_number
 
-  game.auto_save(string.format("quick%d", last_save_number))
+  local auto_save_name = string.format("quick%d", last_save_number)
+  local auto_save_message = string.format("Saved '_autosave-%s'", auto_save_name)
+  game.auto_save(auto_save_name)
+  game.print(auto_save_message)
 end)
